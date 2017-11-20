@@ -4,6 +4,39 @@
         <name>WF_BINARY_EDITOR_EXAM</name>
     </assembly>
     <members>
+        <member name="T:WF_BINARY_EDITOR_EXAM.AboutBox">
+            <summary>
+            AboutBox
+            </summary>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.AboutBox.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.AboutBox.LLBGitHub_LinkClicked(System.Object,System.Windows.Forms.LinkLabelLinkClickedEventArgs)">
+            <summary>
+            if pressed on link label
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:WF_BINARY_EDITOR_EXAM.AboutBox.components">
+            <summary>
+            Обязательная переменная конструктора.
+            </summary>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.AboutBox.Dispose(System.Boolean)">
+            <summary>
+            Освободить все используемые ресурсы.
+            </summary>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.AboutBox.InitializeComponent">
+            <summary>
+            Требуемый метод для поддержки конструктора — не изменяйте 
+            содержимое этого метода с помощью редактора кода.
+            </summary>
+        </member>
         <member name="T:WF_BINARY_EDITOR_EXAM.FormEdit">
             <summary>
             Provides edit values
@@ -13,6 +46,27 @@
             <summary>
             Constructor
             </summary>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormEdit.TB0_KeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+            <summary>
+            Event of get pressed button for labels
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormEdit.BTN_OK_Click(System.Object,System.EventArgs)">
+            <summary>
+            Event of pressed button "OK"
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormEdit.BTN_Cancel_Click(System.Object,System.EventArgs)">
+            <summary>
+            Event of back without saving
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
         </member>
         <member name="F:WF_BINARY_EDITOR_EXAM.FormEdit.components">
             <summary>
@@ -113,6 +167,11 @@
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:WF_BINARY_EDITOR_EXAM.FormFile.LWShow">
+            <summary>
+            ListWiev
             </summary>
         </member>
         <member name="T:WF_BINARY_EDITOR_EXAM.eEncoding">
@@ -238,6 +297,20 @@
             <param name="sender"></param>
             <param name="e"></param>
         </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormMain.TSMAbout_Click(System.Object,System.EventArgs)">
+            <summary>
+            Show About block
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormMain.TSMExit_Click(System.Object,System.EventArgs)">
+            <summary>
+            Close main form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
         <member name="F:WF_BINARY_EDITOR_EXAM.FormMain.components">
             <summary>
             Обязательная переменная конструктора.
@@ -282,18 +355,23 @@
         </member>
         <member name="T:WF_BINARY_EDITOR_EXAM.Properties.Resources">
             <summary>
-              Класс ресурсов со строгим типом для поиска локализованных строк и пр.
+              Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
             </summary>
         </member>
         <member name="P:WF_BINARY_EDITOR_EXAM.Properties.Resources.ResourceManager">
             <summary>
-              Возврат кэшированного экземпляра ResourceManager, используемого этим классом.
+              Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
             </summary>
         </member>
         <member name="P:WF_BINARY_EDITOR_EXAM.Properties.Resources.Culture">
             <summary>
-              Переопределяет свойство CurrentUICulture текущего потока для всех
-              подстановки ресурсов с помощью этого класса ресурсов со строгим типом.
+              Перезаписывает свойство CurrentUICulture текущего потока для всех
+              обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
+            </summary>
+        </member>
+        <member name="P:WF_BINARY_EDITOR_EXAM.Properties.Resources.QR_20171120120958">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
             </summary>
         </member>
     </members>

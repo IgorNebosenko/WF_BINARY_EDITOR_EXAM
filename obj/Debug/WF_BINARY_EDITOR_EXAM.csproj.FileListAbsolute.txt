@@ -10,3 +10,4 @@ C:\Users\Hazker\Desktop\Homeworks\WF_BINARY_EDITOR_EXAM\WF_BINARY_EDITOR_EXAM\ob
 C:\Users\Hazker\Desktop\Homeworks\WF_BINARY_EDITOR_EXAM\WF_BINARY_EDITOR_EXAM\obj\Debug\WF_BINARY_EDITOR_EXAM.exe
 C:\Users\Hazker\Desktop\Homeworks\WF_BINARY_EDITOR_EXAM\WF_BINARY_EDITOR_EXAM\obj\Debug\WF_BINARY_EDITOR_EXAM.pdb
 C:\Users\Hazker\Desktop\Homeworks\WF_BINARY_EDITOR_EXAM\WF_BINARY_EDITOR_EXAM\obj\Debug\WF_BINARY_EDITOR_EXAM.FormEdit.resources
+C:\Users\Hazker\Desktop\Homeworks\WF_BINARY_EDITOR_EXAM\WF_BINARY_EDITOR_EXAM\obj\Debug\WF_BINARY_EDITOR_EXAM.AboutBox.resources

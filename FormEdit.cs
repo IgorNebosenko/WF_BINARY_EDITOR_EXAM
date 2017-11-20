@@ -35,12 +35,22 @@ namespace WF_BINARY_EDITOR_EXAM
             }
         }
 
+        /// <summary>
+        /// Event of get pressed button for labels
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void TB0_KeyPress(object sender, KeyPressEventArgs e)
         {
             if ((sender as TextBox).Text.Length > (sender as TextBox).MaxLength)
                 (sender as TextBox).Text = "";
         }
 
+        /// <summary>
+        /// Event of pressed button "OK"
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BTN_OK_Click(object sender, EventArgs e)
         {
             try
@@ -72,6 +82,11 @@ namespace WF_BINARY_EDITOR_EXAM
             }
         }
 
+        /// <summary>
+        /// Event of back without saving
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BTN_Cancel_Click(object sender, EventArgs e)
         {
             this.Close();

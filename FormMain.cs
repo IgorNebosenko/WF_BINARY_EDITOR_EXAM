@@ -312,7 +312,8 @@ namespace WF_BINARY_EDITOR_EXAM
         /// <param name="e"></param>
         private void TSMAbout_Click(object sender, EventArgs e)
         {
-
+            var ab = new AboutBox();
+            ab.ShowDialog();
         }
 
         /// <summary>

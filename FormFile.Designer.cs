@@ -399,6 +399,9 @@
         private System.Windows.Forms.ToolStripMenuItem TSMIEdit;
         private System.Windows.Forms.ToolStripMenuItem TSMISave;
         private System.Windows.Forms.ToolStripMenuItem TSMISaveAs;
+        /// <summary>
+        /// ListWiev
+        /// </summary>
         public System.Windows.Forms.ListView LWShow;
     }
 }
