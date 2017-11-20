@@ -1,0 +1,300 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WF_BINARY_EDITOR_EXAM</name>
+    </assembly>
+    <members>
+        <member name="T:WF_BINARY_EDITOR_EXAM.FormEdit">
+            <summary>
+            Provides edit values
+            </summary>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormEdit.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="F:WF_BINARY_EDITOR_EXAM.FormEdit.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormEdit.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormEdit.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WF_BINARY_EDITOR_EXAM.FormFile">
+            <summary>
+            Form of showing file
+            </summary>
+        </member>
+        <member name="F:WF_BINARY_EDITOR_EXAM.FormFile.sPath">
+            <summary>
+            String with path
+            </summary>
+        </member>
+        <member name="F:WF_BINARY_EDITOR_EXAM.FormFile.eE">
+            <summary>
+            String with encoding
+            </summary>
+        </member>
+        <member name="F:WF_BINARY_EDITOR_EXAM.FormFile.iStep">
+            <summary>
+            One step
+            </summary>
+        </member>
+        <member name="F:WF_BINARY_EDITOR_EXAM.FormFile.iSizeList">
+            <summary>
+            Size of one element of ListView
+            </summary>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormFile.#ctor(System.String,WF_BINARY_EDITOR_EXAM.eEncoding)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormFile.EditEncoding(WF_BINARY_EDITOR_EXAM.eEncoding)">
+            <summary>
+            Edit encoding
+            </summary>
+            <param name="newEncode"></param>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormFile.Save(System.String)">
+            <summary>
+            Provides save
+            </summary>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormFile.SaveAs">
+            <summary>
+            Provides save as method
+            </summary>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormFile.TSMIEdit_Click(System.Object,System.EventArgs)">
+            <summary>
+            Provides edit value
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormFile.TSMISave_Click(System.Object,System.EventArgs)">
+            <summary>
+            Provides save from menu
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormFile.TSMISaveAs_Click(System.Object,System.EventArgs)">
+            <summary>
+            Provides save as another file
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:WF_BINARY_EDITOR_EXAM.FormFile.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormFile.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormFile.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WF_BINARY_EDITOR_EXAM.eEncoding">
+            <summary>
+            Enum of encoding
+            </summary>
+        </member>
+        <member name="F:WF_BINARY_EDITOR_EXAM.eEncoding.ASCII">
+            <summary>
+            ASCII
+            </summary>
+        </member>
+        <member name="F:WF_BINARY_EDITOR_EXAM.eEncoding.Unicode">
+            <summary>
+            Unicode
+            </summary>
+        </member>
+        <member name="F:WF_BINARY_EDITOR_EXAM.eEncoding.Octal">
+            <summary>
+            Octal
+            </summary>
+        </member>
+        <member name="F:WF_BINARY_EDITOR_EXAM.eEncoding.Decimal">
+            <summary>
+            Decimal
+            </summary>
+        </member>
+        <member name="T:WF_BINARY_EDITOR_EXAM.FormMain">
+            <summary>
+            Main form
+            </summary>
+        </member>
+        <member name="F:WF_BINARY_EDITOR_EXAM.FormMain.fFirst">
+            <summary>
+            First file
+            </summary>
+        </member>
+        <member name="F:WF_BINARY_EDITOR_EXAM.FormMain.eFirstFile">
+            <summary>
+            Encoding first file
+            </summary>
+        </member>
+        <member name="F:WF_BINARY_EDITOR_EXAM.FormMain.fSecond">
+            <summary>
+            Second file
+            </summary>
+        </member>
+        <member name="F:WF_BINARY_EDITOR_EXAM.FormMain.eSecondFile">
+            <summary>
+            Encoding of second file
+            </summary>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormMain.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormMain.FormMain_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+            <summary>
+            Event of closing form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormMain.TSMFirstFileOpen_Click(System.Object,System.EventArgs)">
+            <summary>
+            If press open first file
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormMain.TSMFirstFileSave_Click(System.Object,System.EventArgs)">
+            <summary>
+            If press save first file
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormMain.TSMFirstFileSaveAs_Click(System.Object,System.EventArgs)">
+            <summary>
+            If press save as for first file
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormMain.ReloadFirstForm">
+            <summary>
+            Region with edit encoding
+            </summary>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormMain.TSMSecondFileOpen_Click(System.Object,System.EventArgs)">
+            <summary>
+            If opened second file
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormMain.TSMSecondFileSave_Click(System.Object,System.EventArgs)">
+            <summary>
+            Save second file
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormMain.TSMSecondFileSaveAs_Click(System.Object,System.EventArgs)">
+            <summary>
+            Save as another file
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormMain.TSMSecondFileClose_Click(System.Object,System.EventArgs)">
+            <summary>
+            Close second file
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormMain.TSMCompare_Click(System.Object,System.EventArgs)">
+            <summary>
+            Compare files
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:WF_BINARY_EDITOR_EXAM.FormMain.components">
+            <summary>
+            Обязательная переменная конструктора.
+            </summary>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormMain.Dispose(System.Boolean)">
+            <summary>
+            Освободить все используемые ресурсы.
+            </summary>
+            <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.FormMain.InitializeComponent">
+            <summary>
+            Требуемый метод для поддержки конструктора — не изменяйте 
+            содержимое этого метода с помощью редактора кода.
+            </summary>
+        </member>
+        <member name="M:WF_BINARY_EDITOR_EXAM.Program.Main">
+            <summary>
+            Главная точка входа для приложения.
+            </summary>
+        </member>
+        <member name="T:WF_BINARY_EDITOR_EXAM.Provider">
+            <summary>
+            Provides speak with same forms
+            </summary>
+        </member>
+        <member name="F:WF_BINARY_EDITOR_EXAM.Provider.SIZE">
+            <summary>
+            Size of array of strings
+            </summary>
+        </member>
+        <member name="F:WF_BINARY_EDITOR_EXAM.Provider.sProv">
+            <summary>
+            Array with strings
+            </summary>
+        </member>
+        <member name="F:WF_BINARY_EDITOR_EXAM.Provider.sAdress">
+            <summary>
+            String with adress
+            </summary>
+        </member>
+        <member name="T:WF_BINARY_EDITOR_EXAM.Properties.Resources">
+            <summary>
+              Класс ресурсов со строгим типом для поиска локализованных строк и пр.
+            </summary>
+        </member>
+        <member name="P:WF_BINARY_EDITOR_EXAM.Properties.Resources.ResourceManager">
+            <summary>
+              Возврат кэшированного экземпляра ResourceManager, используемого этим классом.
+            </summary>
+        </member>
+        <member name="P:WF_BINARY_EDITOR_EXAM.Properties.Resources.Culture">
+            <summary>
+              Переопределяет свойство CurrentUICulture текущего потока для всех
+              подстановки ресурсов с помощью этого класса ресурсов со строгим типом.
+            </summary>
+        </member>
+    </members>
+</doc>

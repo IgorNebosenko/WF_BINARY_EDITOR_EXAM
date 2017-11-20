@@ -1,0 +1,12 @@
+C:\Users\Hazker\Desktop\Homeworks\WF_BINARY_EDITOR_EXAM\WF_BINARY_EDITOR_EXAM\bin\Debug\WF_BINARY_EDITOR_EXAM.exe.config
+C:\Users\Hazker\Desktop\Homeworks\WF_BINARY_EDITOR_EXAM\WF_BINARY_EDITOR_EXAM\bin\Debug\WF_BINARY_EDITOR_EXAM.XML
+C:\Users\Hazker\Desktop\Homeworks\WF_BINARY_EDITOR_EXAM\WF_BINARY_EDITOR_EXAM\bin\Debug\WF_BINARY_EDITOR_EXAM.exe
+C:\Users\Hazker\Desktop\Homeworks\WF_BINARY_EDITOR_EXAM\WF_BINARY_EDITOR_EXAM\bin\Debug\WF_BINARY_EDITOR_EXAM.pdb
+C:\Users\Hazker\Desktop\Homeworks\WF_BINARY_EDITOR_EXAM\WF_BINARY_EDITOR_EXAM\obj\Debug\WF_BINARY_EDITOR_EXAM.csprojResolveAssemblyReference.cache
+C:\Users\Hazker\Desktop\Homeworks\WF_BINARY_EDITOR_EXAM\WF_BINARY_EDITOR_EXAM\obj\Debug\WF_BINARY_EDITOR_EXAM.FormFile.resources
+C:\Users\Hazker\Desktop\Homeworks\WF_BINARY_EDITOR_EXAM\WF_BINARY_EDITOR_EXAM\obj\Debug\WF_BINARY_EDITOR_EXAM.FormMain.resources
+C:\Users\Hazker\Desktop\Homeworks\WF_BINARY_EDITOR_EXAM\WF_BINARY_EDITOR_EXAM\obj\Debug\WF_BINARY_EDITOR_EXAM.Properties.Resources.resources
+C:\Users\Hazker\Desktop\Homeworks\WF_BINARY_EDITOR_EXAM\WF_BINARY_EDITOR_EXAM\obj\Debug\WF_BINARY_EDITOR_EXAM.csproj.GenerateResource.Cache
+C:\Users\Hazker\Desktop\Homeworks\WF_BINARY_EDITOR_EXAM\WF_BINARY_EDITOR_EXAM\obj\Debug\WF_BINARY_EDITOR_EXAM.exe
+C:\Users\Hazker\Desktop\Homeworks\WF_BINARY_EDITOR_EXAM\WF_BINARY_EDITOR_EXAM\obj\Debug\WF_BINARY_EDITOR_EXAM.pdb
+C:\Users\Hazker\Desktop\Homeworks\WF_BINARY_EDITOR_EXAM\WF_BINARY_EDITOR_EXAM\obj\Debug\WF_BINARY_EDITOR_EXAM.FormEdit.resources
