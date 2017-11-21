@@ -52,7 +52,6 @@
             this.TSMSecondFileDecimal = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.TSMSecondFileClose = new System.Windows.Forms.ToolStripMenuItem();
-            this.TSMCompare = new System.Windows.Forms.ToolStripMenuItem();
             this.TSMAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.TSMExit = new System.Windows.Forms.ToolStripMenuItem();
             this.MSMenu.SuspendLayout();
@@ -63,7 +62,6 @@
             this.MSMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.TSMFirstFile,
             this.TSMSecondFile,
-            this.TSMCompare,
             this.TSMAbout,
             this.TSMExit});
             this.MSMenu.Location = new System.Drawing.Point(0, 0);
@@ -245,13 +243,6 @@
             this.TSMSecondFileClose.Text = "Close";
             this.TSMSecondFileClose.Click += new System.EventHandler(this.TSMSecondFileClose_Click);
             // 
-            // TSMCompare
-            // 
-            this.TSMCompare.Name = "TSMCompare";
-            this.TSMCompare.Size = new System.Drawing.Size(92, 20);
-            this.TSMCompare.Text = "Compare files";
-            this.TSMCompare.Click += new System.EventHandler(this.TSMCompare_Click);
-            // 
             // TSMAbout
             // 
             this.TSMAbout.Name = "TSMAbout";
@@ -311,7 +302,6 @@
         private System.Windows.Forms.ToolStripMenuItem TSMSecondFileDecimal;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
         private System.Windows.Forms.ToolStripMenuItem TSMSecondFileClose;
-        private System.Windows.Forms.ToolStripMenuItem TSMCompare;
         private System.Windows.Forms.ToolStripMenuItem TSMAbout;
         private System.Windows.Forms.ToolStripMenuItem TSMExit;
     }

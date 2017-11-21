@@ -278,34 +278,6 @@ namespace WF_BINARY_EDITOR_EXAM
         }
 
         /// <summary>
-        /// Compare files
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void TSMCompare_Click(object sender, EventArgs e)
-        {
-            if (FormMain.fFirst == null || FormMain.fSecond == null)
-                return;
-
-                for (int i = 0; i < FormMain.fFirst.LWShow.Items.Count && i < FormMain.fSecond.LWShow.Items.Count; ++i)
-                {
-                    for(var j = 0; j < 16; ++j)
-                    {
-                        if (FormMain.fFirst.LWShow.Items[i].SubItems[j + 1].Text != FormMain.fSecond.LWShow.Items[i].SubItems[j + 1].Text)
-                        {
-                            FormMain.fFirst.LWShow.Items[i].SubItems[j + 1].ForeColor = Color.Red;
-                            FormMain.fSecond.LWShow.Items[i].SubItems[j + 1].ForeColor = Color.Red;
-                        }
-                        else
-                        {
-                            FormMain.fFirst.LWShow.Items[i].SubItems[j + 1].ForeColor = Color.Green;
-                            FormMain.fSecond.LWShow.Items[i].SubItems[j + 1].ForeColor = Color.Green;
-                        }
-                    }
-                }
-        }
-
-        /// <summary>
         /// Show About block
         /// </summary>
         /// <param name="sender"></param>
